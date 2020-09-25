@@ -1,0 +1,22 @@
+Id: ClamWin.ClamSentinel
+Publisher: Andrea Russo, Robert Scroggins
+Name: Clam sentinel is a program that detects file system changes and automatically scans the files added or modified using ClamWin. Require the installation of ClamWin.
+Description: Clam sentinel is a program that detects file system changes and automatically scans the files added or modified using ClamWin. Require the installation of ClamWin. For Microsoft Windows 98/98SE/Me/2000/XP/Vista, Windows 7 and Windows 8.1.
+AppMoniker: 
+Tags: clamwin,clamsentinel
+# ================= License ==================
+Homepage: https://sourceforge.net/projects/clamsentinel/
+License: GNU General Public License version 2.0 (GPLv2)
+LicenseUrl: https://sourceforge.net/directory/license:gpl/
+# ================= Installer =================
+Version: 1.22
+
+InstallerType: exe
+Installers:
+  - Arch: x86
+    Url: https://downloads.sourceforge.net/project/clamsentinel/clamsentinel/1.22/ClamSentinel1.22.exe
+    Sha256: 34a5aefc06641ed38b0307c83b2438a798152f276325c69cc51c1a3023e9fe2d
+    InstallerType: exe
+    Switches:
+      Silent: /SILENT
+      SilentWithProgress: /SILENT

@@ -1,0 +1,12 @@
+Id: 2gis.2gis
+Publisher: 2gis
+Name: 2gis
+Version: 3.16.3.0
+License: http://law.2gis.ru/licensing-agreement
+LicenseUrl: http://law.2gis.ru/licensing-agreement
+InstallerType: msi
+Installers:
+  - Arch: x86
+    Url: http://download.2gis.com/arhives/2GISShell-3.16.3.0.msi
+    Sha256: 4326C69639ECD0EC6B708C572C46DE10A9FA88C7139F00E295ED68B431E004FE
+    InstallerType: msi
